@@ -10,7 +10,8 @@ header("location: class.php");
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Attendance Management System</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" href="favicon.ico">
 <link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
 <!-- jQuery file -->
 <script src="js/jquery.min.js"></script>
@@ -28,7 +29,7 @@ Attendance Management System</div>
 <div id="loginpanelwrap">
   	
 	<div class="loginheader">
-    <div class="logintitle"><a href="#">Admin</a></div>
+    <div class="logintitle"><a href="#">Login to WebApp</a></div>
     </div>
 	<form action="" method="post">
      
@@ -43,7 +44,7 @@ Attendance Management System</div>
        <input name="password" placeholder="**********" type="password" class="loginform_input" />
         </div>
         <div class="loginform_row">
-        <input type="submit" class="loginform_submit" value="Login" />
+        <input name="submit" type="submit" class="loginform_submit" value="Login" />
         </div>
         <span><?php echo $error; ?></span>
 </form> 
@@ -51,6 +52,11 @@ Attendance Management System</div>
     </div>
  
 
-</div>
+</div> 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong style="color:#F00">**username: ajmal password:ajmal </strong></p>
+<p align="center">All Right Reserved By<a href="http://facebook.com/ajmcc"> Ajmal Chemban</a></p>
+<p align="right">&nbsp;</p>
 </body>
 </html>
